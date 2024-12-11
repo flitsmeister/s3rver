@@ -28,8 +28,7 @@
   "scripts": {
     "coverage": "nyc npm test",
     "test": "mocha",
-    "fmt": "eslint . --fix && prettier . --write",
-    "prepare": "husky install"
+    "fmt": "eslint . --fix && prettier . --write"
   },
   "main": "lib/s3rver.js",
   "files": [
